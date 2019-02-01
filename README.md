@@ -10,4 +10,4 @@ Serverside Node Application build with:
 Other technologies include:
 -Passport.js for authentication,
 -Bcrypt for password decryption in MongoDB,
--Handlebars.js for templates
+-Handlebars.js for HTML templates
