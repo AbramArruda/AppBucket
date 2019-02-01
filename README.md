@@ -5,7 +5,7 @@ Application used to store App ideas under login credentials inside a Mongo datab
 Serverside Node Application build with:
 -Node.js
 -Express.js
--MongoDB.
+-MongoDB
 
 Other technologies include:
 -Passport.js for authentication
