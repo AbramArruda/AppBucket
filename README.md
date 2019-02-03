@@ -14,3 +14,7 @@ Other technologies include:
 -Bcrypt for password decryption in MongoDB,
 -Handlebars.js for HTML templates,
 -Bootstrap as CSS framework
+
+Node Packages:
+express,
+express-handlebars,
