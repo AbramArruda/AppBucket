@@ -1,7 +1,10 @@
 // Add express server logic
 const express = require("express");
-
+const exphbs = require("express-handlebars");
 const app = express();
+
+app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+app.set("viewEngine, handlebars");
 
 //How middleware works
 app.use(function(req, res, next) {
