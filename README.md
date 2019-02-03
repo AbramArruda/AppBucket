@@ -2,6 +2,8 @@
 
 Application used to store App ideas under login credentials inside a Mongo database. Handles all CRUD operators to the Mongo Database. Includes authentication with Passport. Handlebars.js as the template engine to render views.
 
+Site published at:
+
 Serverside Node Application built with:
 -Node.js,
 -Express.js,
