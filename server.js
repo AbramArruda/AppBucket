@@ -14,7 +14,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/about", function(req, res) {
-  res.send("ABOUT");
+  res.render("about");
 });
 
 const PORT = 3000;
