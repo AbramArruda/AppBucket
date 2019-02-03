@@ -21,4 +21,5 @@ const PORT = 3000;
 app.listen(PORT, function() {
   console.log(`Server listening on Port ${PORT}`);
 });
+
 //DATABASE Routes
