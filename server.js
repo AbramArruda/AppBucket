@@ -1,6 +1,7 @@
 // Add express server logic
 const express = require("express");
 const exphbs = require("express-handlebars");
+const mongoose = require("mongoose");
 const app = express();
 
 //express-handlebars middleware
