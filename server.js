@@ -2,7 +2,13 @@
 const express = require("express");
 const exphbs = require("express-handlebars");
 const mongoose = require("mongoose");
+
 const app = express();
+
+//Connect to mongoose
+mongoose.connect("mongodb://localhost/appbucket-dev", {
+  useMongoClient: true
+});
 
 //express-handlebars middleware
 //tells the system that we want to use the handlebars template engine and set the default layout to main
